@@ -191,7 +191,11 @@
       </div>
 
       <div class="form-card card">
-        <form id="quoteForm">
+       <form action="https://api.web3forms.com/submit" method="POST">
+
+<input type="hidden" name="access_key" value="5593e793-d4f4-4315-a5c3-5def505d1b94">
+<input type="hidden" name="subject" value="New quote request from ESClean">
+<input type="hidden" name="from_name" value="ESClean Website">
           <input type="text" name="name" placeholder="Your name" required />
           <input type="tel" name="phone" placeholder="Phone number" required />
           <input type="email" name="email" placeholder="Email address" />
@@ -226,37 +230,7 @@
   </div>
 </footer>
 
-<script>
-  document.getElementById("quoteForm").addEventListener("submit", function(e) {
-    e.preventDefault();
 
-    const form = e.target;
-    const botField = form.website.value;
-    const captcha = form.captcha.value.trim();
-    const error = document.getElementById("error");
-
-    if (botField) return;
-
-    if (captcha !== "8") {
-      error.style.display = "block";
-      return;
-    }
-
-    error.style.display = "none";
-
-    const subject = encodeURIComponent("Cleaning quote request from esclean.me");
-    const body = encodeURIComponent(
-      "Name: " + form.name.value + "\n" +
-      "Phone: " + form.phone.value + "\n" +
-      "Email: " + form.email.value + "\n" +
-      "Postcode: " + form.postcode.value + "\n" +
-      "Service: " + form.service.value + "\n\n" +
-      "Message:\n" + form.message.value
-    );
-
-    window.location.href = "mailto:emilia.sobek@dorco.eu?subject=" + subject + "&body=" + body;
-  });
-</script>
 
 </body>
 </html>
