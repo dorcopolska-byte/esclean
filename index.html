@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DORKOM Ltd | Cleaning Services in Milton Keynes</title>
+  <meta name="description" content="DORKOM Ltd provides domestic cleaning, office cleaning, deep cleaning and end of tenancy cleaning in Milton Keynes and surrounding areas." />
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; color: #0f172a; background: #f8fafc; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    header { background: white; position: sticky; top: 0; z-index: 10; border-bottom: 1px solid #e2e8f0; }
+    .container { max-width: 1150px; margin: 0 auto; padding: 0 20px; }
+    .nav { display: flex; justify-content: space-between; align-items: center; padding: 18px 0; }
+    .logo { font-weight: 800; font-size: 22px; color: #047857; }
+    .nav-links { display: flex; gap: 24px; font-weight: 600; font-size: 14px; }
+    .button { display: inline-block; background: #059669; color: white; padding: 13px 20px; border-radius: 14px; font-weight: 700; border: 0; cursor: pointer; }
+    .button:hover { background: #047857; }
+    .hero { background: linear-gradient(135deg, #d1fae5, #ffffff, #dbeafe); padding: 90px 0; }
+    .hero-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 40px; align-items: center; }
+    h1 { font-size: 54px; line-height: 1.05; margin: 10px 0 20px; }
+    h2 { font-size: 38px; line-height: 1.15; margin: 0 0 16px; }
+    h3 { margin: 0 0 10px; font-size: 22px; }
+    .lead { font-size: 19px; color: #475569; max-width: 650px; }
+    .badge { display: inline-block; background: white; color: #047857; padding: 8px 14px; border-radius: 999px; font-weight: 700; box-shadow: 0 4px 18px rgba(0,0,0,.06); }
+    .hero-card, .card, .price-box, .form-card { background: white; border-radius: 28px; box-shadow: 0 10px 30px rgba(15,23,42,.08); }
+    .hero-card { padding: 30px; text-align: center; }
+    .sparkle { height: 230px; border-radius: 22px; background: linear-gradient(135deg, #a7f3d0, #bae6fd); display: flex; align-items: center; justify-content: center; font-size: 72px; margin-bottom: 22px; }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .stat { background: #f8fafc; padding: 15px; border-radius: 18px; }
+    .stat strong { display: block; font-size: 24px; }
+    section { padding: 80px 0; }
+    .section-intro { max-width: 720px; margin-bottom: 36px; }
+    .green { color: #059669; font-weight: 800; }
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; align-items: start; }
+    .card { padding: 25px; }
+    .icon { width: 50px; height: 50px; border-radius: 16px; background: #d1fae5; display: flex; align-items: center; justify-content: center; font-size: 24px; margin-bottom: 18px; }
+    .white-section { background: white; }
+    .price-row { display: flex; justify-content: space-between; padding: 20px 24px; border-bottom: 1px solid #e2e8f0; font-weight: 700; }
+    .price-row:last-child { border-bottom: 0; }
+    .area { background: #047857; color: white; }
+    .area p { color: #ecfdf5; }
+    .area-box { background: rgba(255,255,255,.12); padding: 20px; border-radius: 22px; font-weight: 800; }
+    input, select, textarea { width: 100%; padding: 14px; border: 1px solid #cbd5e1; border-radius: 14px; font-size: 16px; margin-bottom: 14px; }
+    label { font-weight: 700; display: block; margin-bottom: 6px; }
+    .hidden { display: none; }
+    .notice { background: #f1f5f9; padding: 16px; border-radius: 18px; margin-bottom: 14px; }
+    .error { color: #dc2626; font-weight: 700; display: none; margin-top: -5px; margin-bottom: 14px; }
+    footer { background: #020617; color: #cbd5e1; padding: 32px 0; font-size: 14px; }
+    @media (max-width: 850px) {
+      .hero-grid, .grid-2 { grid-template-columns: 1fr; }
+      .grid-4, .grid-3 { grid-template-columns: 1fr; }
+      h1 { font-size: 38px; }
+      h2 { font-size: 30px; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="logo">DORKOM Ltd</div>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#pricing">Prices</a>
+      <a href="#areas">Areas</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="button" href="tel:07521187831">Call now</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="badge">Trusted cleaning service in Milton Keynes</div>
+        <h1>Professional cleaning for homes, offices and rental properties.</h1>
+        <p class="lead">DORKOM Ltd provides reliable domestic cleaning, office cleaning, deep cleaning and end of tenancy cleaning across Milton Keynes and surrounding areas.</p>
+        <p>
+          <a class="button" href="#contact">Get a free quote</a>
+          &nbsp;
+          <a class="button" href="tel:07521187831">07521 187831</a>
+        </p>
+      </div>
+      <div class="hero-card">
+        <div class="sparkle">✨</div>
+        <div class="stats">
+          <div class="stat"><strong>5★</strong>Service</div>
+          <div class="stat"><strong>24h</strong>Reply</div>
+          <div class="stat"><strong>100%</strong>Care</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="section-intro">
+        <p class="green">Our services</p>
+        <h2>Cleaning services tailored to your needs</h2>
+        <p>Choose regular cleaning or book a one-off deep clean when you need extra help.</p>
+      </div>
+      <div class="grid-4">
+        <div class="card"><div class="icon">🏠</div><h3>Domestic Cleaning</h3><p>Weekly, fortnightly or one-off home cleaning tailored to your routine.</p></div>
+        <div class="card"><div class="icon">🏢</div><h3>Office Cleaning</h3><p>Reliable commercial cleaning for offices, shops and small business premises.</p></div>
+        <div class="card"><div class="icon">🔑</div><h3>End of Tenancy</h3><p>Detailed move-out cleaning for tenants, landlords and letting agents.</p></div>
+        <div class="card"><div class="icon">✨</div><h3>Deep Cleaning</h3><p>Top-to-bottom cleaning for kitchens, bathrooms, appliances and hard-to-reach areas.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="white-section">
+    <div class="container grid-2">
+      <div>
+        <p class="green">Why choose us</p>
+        <h2>Reliable cleaners, simple booking and spotless results</h2>
+        <p>✔ Experienced cleaning staff</p>
+        <p>✔ Flexible appointments</p>
+        <p>✔ Clear communication</p>
+        <p>✔ Cleaning products available on request</p>
+      </div>
+      <div class="card">
+        <h3>Customer review</h3>
+        <p>“Excellent service. The team arrived on time, worked carefully and left the whole flat looking fresh and spotless.”</p>
+        <p>★★★★★</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="container">
+      <div class="section-intro">
+        <p class="green">Guide prices</p>
+        <h2>Simple starting prices</h2>
+        <p>Final price depends on property size, condition, location and frequency.</p>
+      </div>
+      <div class="price-box">
+        <div class="price-row"><span>Regular domestic cleaning</span><span>from £18/hour</span></div>
+        <div class="price-row"><span>Deep cleaning</span><span>from £120</span></div>
+        <div class="price-row"><span>End of tenancy cleaning</span><span>from £160</span></div>
+        <div class="price-row"><span>Office cleaning</span><span>custom quote</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="areas" class="area">
+    <div class="container grid-2">
+      <div>
+        <p class="green" style="color:#bbf7d0;">Areas we cover</p>
+        <h2>Cleaning service across Milton Keynes</h2>
+        <p>We serve households, landlords and businesses across Milton Keynes and surrounding areas.</p>
+      </div>
+      <div class="grid-2">
+        <div class="area-box">Same-week availability</div>
+        <div class="area-box">Evening slots</div>
+        <div class="area-box">Weekend bookings</div>
+        <div class="area-box">Free local quotes</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="white-section">
+    <div class="container">
+      <div class="section-intro">
+        <p class="green">Cleaning advice</p>
+        <h2>Latest from our blog</h2>
+        <p>Helpful cleaning tips for homes, landlords and businesses in Milton Keynes.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card"><h3>How Much Does House Cleaning Cost in Milton Keynes?</h3><p>A simple guide to regular cleaning, deep cleaning and end of tenancy cleaning prices.</p></div>
+        <div class="card"><h3>End of Tenancy Cleaning Checklist</h3><p>What tenants and landlords should check before handing over the keys.</p></div>
+        <div class="card"><h3>What Is Included in a Deep Clean?</h3><p>A practical explanation of what professional deep cleaning usually covers.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container grid-2">
+      <div>
+        <p class="green">Contact us</p>
+        <h2>Request a free cleaning quote</h2>
+        <p>Send us a few details and we’ll get back to you with availability and a clear price.</p>
+        <p><strong>Phone:</strong> <a href="tel:07521187831">07521 187831</a></p>
+        <p><strong>Email:</strong> <a href="mailto:emilia.sobek@dorco.eu">emilia.sobek@dorco.eu</a></p>
+        <p><strong>Area:</strong> Milton Keynes and surrounding areas</p>
+      </div>
+
+      <div class="form-card card">
+        <form id="quoteForm">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="tel" name="phone" placeholder="Phone number" required />
+          <input type="email" name="email" placeholder="Email address" />
+          <input type="text" name="postcode" placeholder="Postcode" />
+          <select name="service">
+            <option value="">Select service</option>
+            <option>Domestic Cleaning</option>
+            <option>Office Cleaning</option>
+            <option>End of Tenancy Cleaning</option>
+            <option>Deep Cleaning</option>
+          </select>
+          <textarea name="message" rows="5" placeholder="Tell us what you need cleaned..."></textarea>
+
+          <input class="hidden" type="text" name="website" autocomplete="off" tabindex="-1" />
+
+          <div class="notice">
+            <label>Anti-spam verification: what is 5 + 3?</label>
+            <input type="text" name="captcha" placeholder="Your answer" required />
+          </div>
+          <div id="error" class="error">Please answer the anti-spam question correctly.</div>
+
+          <button class="button" type="submit">Send request</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    © 2026 DORKOM Ltd. All rights reserved. | esclean.me
+  </div>
+</footer>
+
+<script>
+  document.getElementById("quoteForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const botField = form.website.value;
+    const captcha = form.captcha.value.trim();
+    const error = document.getElementById("error");
+
+    if (botField) return;
+
+    if (captcha !== "8") {
+      error.style.display = "block";
+      return;
+    }
+
+    error.style.display = "none";
+
+    const subject = encodeURIComponent("Cleaning quote request from esclean.me");
+    const body = encodeURIComponent(
+      "Name: " + form.name.value + "\n" +
+      "Phone: " + form.phone.value + "\n" +
+      "Email: " + form.email.value + "\n" +
+      "Postcode: " + form.postcode.value + "\n" +
+      "Service: " + form.service.value + "\n\n" +
+      "Message:\n" + form.message.value
+    );
+
+    window.location.href = "mailto:emilia.sobek@dorco.eu?subject=" + subject + "&body=" + body;
+  });
+</script>
+
+</body>
+</html>
